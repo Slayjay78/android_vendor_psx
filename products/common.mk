@@ -1,6 +1,6 @@
 # Generic product
-PRODUCT_NAME := rascarlo
-PRODUCT_BRAND := rascarlo
+PRODUCT_NAME := psx
+PRODUCT_BRAND := psx
 PRODUCT_DEVICE := generic
 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -14,10 +14,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=false
 
 # Common overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/rascarlo/overlay/common
+PRODUCT_PACKAGE_OVERLAYS += vendor/psx/overlay/common
 
 # Common dictionaries
-PRODUCT_PACKAGE_OVERLAYS += vendor/rascarlo/overlay/dictionaries
+PRODUCT_PACKAGE_OVERLAYS += vendor/psx/overlay/dictionaries
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
@@ -25,6 +25,6 @@ PRODUCT_COPY_FILES += \
 
 # system/lib
 PRODUCT_COPY_FILES += \
-    vendor/rascarlo/proprietary/common/system/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
-    vendor/rascarlo/proprietary/common/system/lib/libjni_filtershow_filters.so:system/lib/libjni_filtershow_filters.so \
-    vendor/rascarlo/proprietary/common/system/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so
+    vendor/psx/proprietary/common/system/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
+    vendor/psx/proprietary/common/system/lib/libjni_filtershow_filters.so:system/lib/libjni_filtershow_filters.so \
+    vendor/psx/proprietary/common/system/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so
