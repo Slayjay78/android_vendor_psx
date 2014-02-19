@@ -24,12 +24,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Needed packages
 PRODUCT_PACKAGES += \
-	LatinIME \
     Stk
 
-# Google latinime
-PRODUCT_COPY_FILES += \
-    vendor/psx/proprietary/system/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+# Google latinime Libs
+#PRODUCT_COPY_FILES += \
+#    vendor/psx/proprietary/system/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
+#    vendor/psx/proprietary/system/lib/libjni_unbundled_latinimegoogle.so:system/lib/libjni_unbundled_latinimegoogle.so
 
 # Common overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/psx/overlay
