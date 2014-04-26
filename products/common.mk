@@ -24,7 +24,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Needed packages
 PRODUCT_PACKAGES += \
-    Stk
+    Stk \
+    OmniSwitch
 
 # Google latinime Libs
 #PRODUCT_COPY_FILES += \
